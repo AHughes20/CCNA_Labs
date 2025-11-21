@@ -1,12 +1,12 @@
-# Lab Name
+# Examining EUI-64
 
 ## Topology
-Brief description of the topology and purpose of the lab.  
-(Include `topology.png` here if you have one.)
+<img width="597" height="292" alt="IPv6_EUI-64_Lab" src="https://github.com/user-attachments/assets/3ee51070-8bbf-4c32-a756-fac553298e7b" />
+
 
 ## Objectives
-- What this lab demonstrates.
-- Key RSTP behaviors to observe.
+- This lab will show the results of EUI-64 when setting an IPv6 address on an interface or simple enabling the interface causing it to obtain a link-local using EUI-64 process.
+- Notice the first 4 hex values of the link-local address. FE80::/10 is the IPv6 link-local prefix.
 
 ## Setup
 - Switch models / software versions.
