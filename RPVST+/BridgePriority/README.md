@@ -1,16 +1,17 @@
-# Lab Name
+# Bridge Priority Lab
 
 ## Topology
 Brief description of the topology and purpose of the lab.  
-(Include `topology.png` here if you have one.)
+<img width="785" height="371" alt="BridgePriorityLab" src="https://github.com/user-attachments/assets/0e070406-1cdb-4884-b5d4-1783a70c995f" />
+
 
 ## Objectives
-- What this lab demonstrates.
-- Key RSTP behaviors to observe.
+- In this lab I change the bridge priority for vlan 1, setting SW4 as primary root, which will set the bridge priority to 24576 or 4096 lower than current root (In this topology all switches are default priority of 32768) causing the switch to become the new root bridge for vlan 1
+- Observe how root bridge begins as SW5, but after setting SW4 as root primary, soon begins its new status as root bridge. 
 
 ## Setup
-- Switch models / software versions.
-- Any special interface notes (duplex changes, cost changes, etc).
+- All switches are preconfigured with only a hostname and rapid-pvst enabled.
+- There is one single gigabit link in the topology between SW3 and SW5 to be aware of.
 
 ## Steps Performed
 Short list of what was done in the lab.  
