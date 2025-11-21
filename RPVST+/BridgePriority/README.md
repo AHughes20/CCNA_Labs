@@ -1,7 +1,6 @@
 # Bridge Priority Lab
 
 ## Topology
-Brief description of the topology and purpose of the lab.  
 <img width="785" height="371" alt="BridgePriorityLab" src="https://github.com/user-attachments/assets/0e070406-1cdb-4884-b5d4-1783a70c995f" />
 
 
