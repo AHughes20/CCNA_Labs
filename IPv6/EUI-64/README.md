@@ -5,7 +5,8 @@
 
 
 ## Objectives
-- This lab will show the results of EUI-64 when setting an IPv6 address on an interface or simple enabling the interface causing it to obtain a link-local using EUI-64 process.
+- This lab will show the results of EUI-64 when setting an IPv6 address on an interface causing it to obtain a link-local using EUI-64 process.
+- You can also use EUI-64 for you IPv6 unique local addressing, which is what I used on g0/0 int. g0/0/0 was set using a chosen IPv6 address.
 - Notice the first 4 hex values of the link-local address. FE80::/10 is the IPv6 link-local prefix.
 
 ## Setup
