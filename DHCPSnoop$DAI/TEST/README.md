@@ -1,8 +1,8 @@
 # Examining DHCP Snooping and DAI
 
 ## Topology
-Brief description of the topology and purpose of the lab.  
-(Include `topology.png` here if you have one.)
+<img width="642" height="360" alt="DHCPSNOOP_Lab" src="https://github.com/user-attachments/assets/5bb89ca3-529a-45b3-89f9-2c3e8a8d3ed2" />
+
 
 ## Objectives
 - Enable DHCP Snooping on VLAN 10.
